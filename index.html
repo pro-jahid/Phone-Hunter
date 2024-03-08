@@ -28,9 +28,37 @@
         </div>
     </section>
 
+    <div id="display" class="d-none text-center py-4">
+      <button id="btn-show-all" class="btn btn-primary">Show All</button>
+    </div>
+
     <div id="no-found-message" class="d-none mt-4">
       <h3 class="text-warning">No Phone Found, Please try a new Search</h3>
     </div>
+
+    <!-- modal  -->
+
+    <!-- Button trigger modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="phoneDetailModal" tabindex="-1" aria-labelledby="phoneDetailModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-dark" id="phoneDetailModalLabel"></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div id="phone-details" class="modal-body">
+       
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
 
 
 
