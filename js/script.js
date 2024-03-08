@@ -98,6 +98,8 @@ const displayPhoneDetails = phone =>{
         <p>Storage: ${phone.mainFeatures ? phone.mainFeatures.storage: 'No storage Information'}</p>
 
         <p>Otheres: ${phone.others ? phone.others.Bluetooth : 'No Bluetooth Information'}</p>
+
+        <p>Sensor:${phone.mainFeatures.sensors ? phone.mainFeatures.sensors[0] : 'No sensore'}</p>
     `
 }
 
