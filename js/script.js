@@ -56,7 +56,7 @@ const processSearch = (datalimit) =>{
 
 document.getElementById('button-addon2').addEventListener('click', function(){
     toggleSpinner(true)
-   processSearch(10)
+    processSearch(10)
 
 });
 
